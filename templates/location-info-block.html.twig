@@ -1,0 +1,20 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+    'clear-both',
+] %}
+<div{{ attributes.addClass(classes) }}>
+    <div>
+        <h2>{{location_detail.time}}</h2>
+    </div>
+    <p>{{location_detail.date}}</p>
+    <p>{{location_detail.location_string}}</p>
+</div>

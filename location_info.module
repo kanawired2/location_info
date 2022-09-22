@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * module file.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function location_info_theme() {
+  return [
+    'location_info_block' => [
+      'variables' => [
+        'location_detail' => NULL
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}

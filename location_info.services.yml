@@ -1,0 +1,7 @@
+services:
+  logger.channel.location_info:
+    parent: logger.channel_base
+    arguments: ['location_info']
+  location_info.datetime:
+    class: Drupal\location_info\DatetimeService
+    arguments: ['@datetime.time', '@date.formatter']

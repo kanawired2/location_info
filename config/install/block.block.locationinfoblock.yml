@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - location_info
+id: locationinfoblock
+region: content
+weight: 0
+provider: null
+plugin: location_info_block
+settings:
+  id: location_info_block
+  label: 'Location info block'
+  label_display: '0'
+  provider: location_info
+visibility: {  }

@@ -1,0 +1,6 @@
+location_info.location_config:
+  title: 'Location Config'
+  route_name: location_info.location_config
+  description: 'For configuring location info block'
+  parent: system.admin_config_system
+  weight: 99
